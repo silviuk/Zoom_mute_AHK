@@ -1,4 +1,6 @@
-# Zoom mute microphone with AHK
+# Mute microphone in Zoom with AHK
+
+Forked from https://github.com/stajp/Teams_mute_AHK
 
 This is an AutoHotkey script to mute or unmute microphone in Zoom, using Media Pause button/event. 
 
