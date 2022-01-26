@@ -1,7 +1,7 @@
 # Mute microphone in Zoom with AHK
 
-This is an AutoHotkey script to mute or unmute microphone in Zoom, using Media Pause button/event of Bluetooth headsets. Forked from https://github.com/stajp/Teams_mute_AHK.
+This is an AutoHotkey script to mute or unmute microphone in Zoom or Welink Meeting (a Zoom derivative), using Media Pause/Play button/event of Bluetooth headsets. Forked from https://github.com/stajp/Teams_mute_AHK.
 
-After starting the script an icon should be in the tray, green icon when script is active, red when it's deactived. 
+After starting the program, a microphone icon will appear in the tray. When the script is active (normal microphone icon in system tray), a press on Media Pause button (or any other way to get the event) will send Alt-A and mute/unmute microphone. If Alt-A is checked as "Global shortcut" in Zoom, it works even when Zoom is not the active meeting.
 
-When script is active, a press on Media Pause button (or any other way to get the event) will send Alt-A and mute/unmute microphone. If there is no active meeting it should just do its usual function. When deactivated, the Media Pause button resumes its normal function.
+The program can be deactivated via double clicking the tray icon. Microphone icon will appear as cut and the program is suspended, the Media Pause button getting back its normal function. A new double click will re-activate the program.
